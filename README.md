@@ -44,6 +44,7 @@ chmod +x qdl && chmod +x qdl.sh
 2. Copy your all firmware file to ```qdl-flash``` folder.
 
 ```all firmware file Must be under qdl-flash folder```
+
 ```And qdl-flash folder under internal storage root```
 
 after Run this tool useg Details show in screen.enter option according to your storage then paste your file location.
