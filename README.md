@@ -39,9 +39,10 @@ chmod +x qdl && chmod +x qdl.sh
 
 
 ## Note :-
-1.Download Your device firmware then extract it after extract Create ```qdl-flash``` folder in internal Storage.
+1. Download Your device firmware then extract it after extract Create ```qdl-flash``` folder in internal Storage.
 
-1. Copy your all firmware file to ```qdl-flash``` folder.
+2. Copy your all firmware file to ```qdl-flash``` folder.
+
 ```all firmware file Must be under qdl-flash folder```
 ```And qdl-flash folder under internal storage root```
 
