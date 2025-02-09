@@ -23,7 +23,7 @@ pkg install git
 pkg install libxml2
 ```
 ```console
-https://github.com/Ishu43642/QDL-Flasher.git
+git clone https://github.com/Ishu43642/QDL-Flasher.git
 ```
 ```console
 cd QDL-Flasher
