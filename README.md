@@ -32,6 +32,15 @@ cd QDL-Flasher
 chmod +x qdl && chmod +x qdl.sh
 ```
 
+# installation (only for fastboot option)Termux-Adb :-
+[Termux-Adb Fastboot](https://github.com/nohajc/termux-adb) 
+
+```credit :- Termux-Adb``` [nohajc](https://github.com/nohajc)
+
+```console
+bash installadb.sh
+```
+
 ## Run Tool
 ```console
 ./qdl.sh
