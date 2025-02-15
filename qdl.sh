@@ -10,6 +10,8 @@ echo -e "\033[0;33m
   1. Flash Emmc Device
   2. Flash UFS Device
   3. Check Usb Connection
+  4. Fastboot to Edl (only for BL unlocked)
+  5. Check Fastboot Device
 ------------------------------------------
 (Press Any key to Exit or input your choice.)
 \033[0m";
@@ -99,6 +101,18 @@ echo -e "\033[0;32m Please enter the patch file location. \033[0m";
     
   echo -e "\033[0;32m checking connected device! \033[0m";
     termux-usb -l
+
+  ;;
+"4")
+    
+  echo -e "\033[0;32m Rebooting to edl mode! \033[0m";
+    termux-fastboot oem edl
+
+  ;;
+"5")
+    
+  echo -e "\033[0;32m Chacking Fastboot Devices! \033[0m";
+    termux-fastboot devices
 
   ;;
   *)
