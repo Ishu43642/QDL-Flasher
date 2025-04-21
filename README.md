@@ -7,6 +7,9 @@ Flash Qualcomm CPU Based Mobile Phones Using Termux ```Without PC```
 
 Tool Credit:- [Gautam Great](https://github.com/GautamGreat)
 
+[QDL-Tree](https://github.com/bmx666/qdl/tree/sparse)
+
+
 ## installation :- 
 
 ```Install``` [termux](https://f-droid.org/repo/com.termux_118.apk) & [Termux-api](https://f-droid.org/repo/com.termux.api_51.apk) ```apk```
