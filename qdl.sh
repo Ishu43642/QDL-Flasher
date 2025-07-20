@@ -3,7 +3,7 @@ trap "echo -e '\033[0;31m Script execution aborted. \033[0m'; exit 1" INT
 
 echo -e "\033[0;33m
 -----------------------------------------
-   * Repair A2Z QDL Flashing *
+   * Repair A2Z QDL Flasher *
 -----------------------------------------
     Select Your Device Storage ?
 -----------------------------------------
@@ -49,13 +49,13 @@ echo -e "\033[0;32m Please enter the patch file location. \033[0m";
     fi
 
 
-    ./qdl --debug --storage emmc --include /storage/emulated/0/qdl-flash $romname $romnamer $romnamep
+    sudo ./qdl --debug --storage emmc --include /storage/emulated/0/qdl-flash $romname $romnamer $romnamep
 
     if [ $? -eq 0 ]; then
       echo -e "\033[0;32m Operation Succeed \033[0m";
     fi
 
-  
+  source ./qdl.sh
   ;;
   "2")
 
@@ -87,7 +87,7 @@ echo -e "\033[0;32m Please enter the patch file location. \033[0m";
     fi
 
 
-    ./qdl --debug --storage ufs --include /storage/emulated/0/qdl-flash $romname $romnamer $romnamep
+    sudo ./qdl --debug --storage ufs --include /storage/emulated/0/qdl-flash $romname $romnamer $romnamep
 
     if [ $? -eq 0 ]; then
       echo -e "\033[0;32m Operation Succeed \033[0m";
@@ -95,25 +95,28 @@ echo -e "\033[0;32m Please enter the patch file location. \033[0m";
 
   
 
-
+ source ./qdl.sh
   ;;
 "3")
     
   echo -e "\033[0;32m checking connected device! \033[0m";
     termux-usb -l
 
+source ./qdl.sh
   ;;
 "4")
     
   echo -e "\033[0;32m Rebooting to edl mode! \033[0m";
     termux-fastboot oem edl
 
+source ./qdl
   ;;
 "5")
     
   echo -e "\033[0;32m Chacking Fastboot Devices! \033[0m";
     termux-fastboot devices
 
+source ./qdl.sh
   ;;
   *)
     echo -e '\033[0;31m Script execution aborted. \033[0m';
