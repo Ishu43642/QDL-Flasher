@@ -3,11 +3,7 @@
 
 ## Termux QDL-Flasher
 Flash Qualcomm CPU Based Mobile Phones Using Termux ```Without PC```
-(This Tool Run Only in ```arm64``` architecture Termux Supported mobile)
-
-Tool Credit:- [Gautam Great](https://github.com/GautamGreat)
-
-[QDL-Tree](https://github.com/bmx666/qdl/tree/sparse)
+(This Tool Run Only in ```arm64``` architecture Termux Supported mobile) ```Root Required```
 
 
 ## installation :- 
@@ -24,6 +20,9 @@ pkg install git
 ```
 ```console
 pkg install libxml2
+```
+```console
+pkg install sudo
 ```
 ```console
 git clone https://github.com/Ishu43642/QDL-Flasher.git
