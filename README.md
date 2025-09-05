@@ -1,4 +1,4 @@
-<img align="right" src="qdl.jpg" width="350" alt="QDL Flasher">
+<img align="right" src="qdl2.jpg" width="350" alt="QDL Flasher">
 
 
 ## Termux QDL-Flasher
