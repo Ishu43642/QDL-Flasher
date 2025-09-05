@@ -1,4 +1,4 @@
-<img align="right" src="qdl2.jpg" width="350" alt="QDL Flasher">
+<img align="right" src="qdl3.jpg" width="350" alt="QDL Flasher">
 
 
 ## Termux QDL-Flasher
@@ -31,7 +31,7 @@ git clone https://github.com/Ishu43642/QDL-Flasher.git
 cd QDL-Flasher
 ```
 ```console
-chmod +x qdl && chmod +x qdl.sh
+chmod -R +x .
 ```
 
 # installation (only for fastboot option)Termux-Adb :-
@@ -45,7 +45,7 @@ bash installadb.sh
 
 ## Run Tool
 ```console
-./qdl.sh
+./qfile.sh
 ```
 
 
