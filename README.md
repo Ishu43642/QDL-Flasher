@@ -3,7 +3,7 @@
 
 ## Termux QDL-Flasher
 Flash Qualcomm CPU Based Mobile Phones Using Termux ```Without PC```
-(This Tool Run Only in ```arm64``` architecture Termux Supported mobile) ```Root Required```
+(This Tool Run  in android ```arm,arm64,x86,x86_64``` architecture Termux Supported mobile) ```Root Required```
 
 
 ## installation :- 
