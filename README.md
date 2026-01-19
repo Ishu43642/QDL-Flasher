@@ -10,19 +10,19 @@ Flash Qualcomm CPU Based Mobile Phones Using Termux ```Without PC```
 
 ```Install``` [termux](https://f-droid.org/repo/com.termux_1021.apk) & [termux api](https://f-droid.org/repo/com.termux.api_1000.apk) ```apk```
 ```console
-yes | pkg update && upgrade
+pkg update && upgrade -y
 ```
 ```console
-pkg install termux-api
+pkg install -y termux-api
 ```
 ```console
-pkg install git
+pkg install -y git
 ```
 ```console
-pkg install libxml2
+pkg install -y libxml2
 ```
 ```console
-pkg install sudo
+pkg install -y sudo
 ```
 ```console
 git clone https://github.com/Ishu43642/QDL-Flasher.git
